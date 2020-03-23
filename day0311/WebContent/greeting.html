@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+	o1 = {val1:1, val2:2, val3:3}
+	o2 = {v1:10, v2:50, v3:100, v4:25}
+	function total(){
+		var sum = 0
+		for(name in this){ 
+			sum += this[name]
+		}
+		return sum
+	}
+	alert(total.apply(o1)) // 6. var this = o1이다 라는 코드가 들어갔다고 생각하면 됨
+	// 즉, apply함수가 호출되는 시점에서 함수의 this값을 프로그래밍적으로 변경함
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+</body>
+</html>

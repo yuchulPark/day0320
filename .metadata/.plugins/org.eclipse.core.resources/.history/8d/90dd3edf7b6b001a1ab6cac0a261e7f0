@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="greeting.html"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function welcome(){
+			return "hello world"
+		}
+		alert(welcome())
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Member Modify</h2>
+	<form action="/exam0308/memmodify" method="post">
+		ID : <input type="text" name="id"><br />
+		PW : <input type="password" name="pw"><br />
+		MAIL : <input type="text" name="mail"><br />
+		PHONE1 : <input type="text" name="phones[0].phone1" size="5"> -
+				<input type="text" name="phones[0].phone2" size="5"> - 
+				<input type="text" name="phones[0].phone3" size="5"><br />
+		PHONE2 : <input type="text" name="phones[1].phone1" size="5"> -
+				<input type="text" name="phone[1].phone2" size="5"> -
+				<input type="text" name="phone[1].phone3" size="5"><br />
+		AGE : <input type="number" name="age" size="4" value="0"><br />
+		ADULT : <input type="radio" name="adult" value="true">Yes, 
+				<input type="radio" name="adult" value="false">No <br />
+		GENDER : <input type="radio" name="gender" value="M">Men, 
+				<input type="radio" name="gender" value="F">Women<br />
+		SPORT : <input type="checkbox" name="sports" value="baseball">Baseball,
+				<input type="checkbox" name="sports" value="basketball">Basketball, 
+				<input type="checkbox" name="sports" value="volleyball">Volleyball, 
+				<input type="checkbox" name="sports" value="billiards">Billiards <br />
+			<input type="submit" value="Modify">
+			<input type="reset" value="Cancel">
+	</form>
+	<a href="/exam0308/resources/html/index.html">MAIN</a>
+</body>
+</html>

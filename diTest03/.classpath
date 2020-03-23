@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SPRING_LIB"/>
+	<classpathentry kind="lib" path="C:/app/82103/product/18.0.0/dbhomeXE/jdbc/lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/asm-3.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/asm-commons-3.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/cglib-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/commons-pool-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/mybatis-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/mybatis-spring-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.aop-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.asm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.aspects-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.beans-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.context.support-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.context-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.core-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.expression-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.instrument.tomcat-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.instrument-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.jdbc-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.jms-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.orm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.oxm-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.test-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.transaction-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.web.portlet-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.web.servlet-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.web.struts-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/82103/Downloads/lib/org.springframework.web-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementById("btn").onclick = function(){
+				var request = new XMLHttpRequest(); // request 객체 생성
+				request.onreadystatechange = function(event){ // 올바르게 응답이 왔냐고 물음
+					if(request.readyState == 4){ // 응답이 모두 완료 되었다면
+						if(request.status == 200){ // 응답 상태가 성공적인 상태라면 (오류없이 끝냈디면)
+							var str = request.responseText;
+							document.getElementById("msg").innerHTML = str; 
+						}
+					}					
+				}
+				request.open("get","hello.jsp",true);
+				request.send();
+			}
+		}
+	</script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<textarea rows="10" cols="20"></textarea>
+	<br>
+	<button id="btn">ajax 통신</button>
+	<h2 id="msg"></h2>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+	o1 = {val1:1, val2:2, val3:3}
+	o2 = {v1:10, v2:50, v3:100, v4:25}
+	function total(){
+		var sum = 0
+		for(name in this){
+			sum += this[name]
+		}
+		return sum
+	}
+	alert(total.apply(o1))
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+</body>
+</html>

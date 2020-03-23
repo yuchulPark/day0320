@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="sms" class="com.bit.exam02.SmsSender">
+	<property name="from" value="자바"/>
+	<property name="to" value="오라클"/>
+</bean>
+<bean id="mon" class="com.bit.exam02.SystemMonitor">
+	<property name="periodTime" value="3"/>
+	<property name="sender" ref="sms"/>
+</bean>
+</beans>

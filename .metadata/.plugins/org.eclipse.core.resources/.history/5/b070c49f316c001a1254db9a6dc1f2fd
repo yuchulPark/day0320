@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+	function zero(){
+		console.log('zero.length', zero.length, 'arguments', arguments.length)
+	}
+	function one(arg1){
+		console.log('one.length', one.length, 'arguments', arguments.length)
+	}
+	function two(arg1, arg2){
+		console.log('two.length', two.length, 'arguments', arguments.length)
+	}
+	zero();
+	
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+</body>
+</html>

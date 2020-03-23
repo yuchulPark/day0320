@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+
+	<properties resource="com/bit/db/db.properties"/> <!-- 파일이 있는 경로 -->
+	<typeAliases> <!-- 애칭을 줌. com.bit.vo.CustomerVO를 customerVO로 준다고 함. 이 애칭이름을 CustomerMapper에서 resultType에 customerVO로 써도 됨 -->
+		<typeAlias type="com.bit.voo.CustomerVO" alias="customerVO"/>
+		<typeAlias type="com.bit.voo.BookVO" alias="bookVO"/>
+	</typeAliases>
+
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${user}"/>
+        <property name="password" value="${pwd}"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <mappers> <!-- 매핑 파일한테 select, insert 등을 맡김 -->
+    <mapper resource="com/bit/db/CustomerMapper.xml"/> <!-- mapping파일을 만들 경로와 이름 -->
+  	<mapper resource="com/bit/db/BookMapper.xml"/>
+  	<mapper resource="com/bit/db/OrdersMapper.xml"/>
+  </mappers>
+</configuration>

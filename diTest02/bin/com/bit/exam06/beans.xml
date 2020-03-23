@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="worker" class="com.bit.exam06.Worker"/>
+<!-- 이거 먼저 실행해보고 주석처리한다음에 밑에꺼 수행하기
+<bean id="executor" class="com.bit.exam06.Executor">
+	<constructor-arg ref="worker"/>
+</bean>
+ -->
+ <bean id="executor" class="com.bit.exam06.Executor">
+ 	<constructor-arg value="홍길동"/>
+ </bean>
+</beans>

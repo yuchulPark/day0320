@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+	function cal(func, num){
+		return func(num)
+	}
+	
+	function increase(num){
+		return num+1
+	}
+	
+	function decrease(num){
+		return num-1
+	}
+	
+	alert(cal(increase,1))
+	
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+</body>
+</html>
